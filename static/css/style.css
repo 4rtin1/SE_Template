@@ -6,8 +6,29 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: aquamarine;
 }
 nav ul {
     display: flex;
     list-style: none;
+    
 }
+
+nav ul li {
+    float: right;
+    margin-right: 20px;
+
+  }
+
+nav ul li a {
+    display: block;
+    padding: 5vh;
+    background-color: #31e7ff;
+    text-decoration-line: none;
+    text-transform: uppercase;
+ }
+
+ nav img {
+    width: 17vh;
+    height: 15vh;
+ }
